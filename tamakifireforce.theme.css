@@ -10,6 +10,7 @@
 */
 
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
 :root {
   --main-color: #2780e6;
@@ -56,9 +57,9 @@
   --home-icon: url('https://i.imgur.com/KIsDh08.jpg');
   --home-position: center;
   --home-size: 40px;
-  --channel-unread: #F6F6F6;
-  --channel-color: rgb(2,0,255,0);
-  --muted-color: rgb(255,255,255,0);
+  --channel-unread: #7B00FF;
+  --channel-color: rgb(0,210,255,1);
+  --muted-color: rgb(0,0,0,1);
   --online-color: #17B400;
   --idle-color: #FFC600;
   --dnd-color: #AD0000;
@@ -84,6 +85,19 @@
   --bd-blue: var(--main-color);
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
+  --rs-small-spacing: 1px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #00B114;
+  --rs-idle-color: #D88700;
+  --rs-dnd-color: #B90000;
+  --rs-offline-color: #555555;
+  --rs-streaming-color: #360093;
+  --rs-phone-visible: block;
 }
 
 /* Any custom CSS below here */
